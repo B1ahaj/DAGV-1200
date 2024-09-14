@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: CornerRoomChallenge01.ma
-//Last modified: Thu, Sep 12, 2024 02:51:33 AM
+//Last modified: Thu, Sep 12, 2024 03:05:38 AM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 22631)";
-fileInfo "UUID" "C3E92086-4D0F-3164-3D9A-C9854BC53A98";
+fileInfo "UUID" "8C4FC896-41DB-B67F-D555-D0813DFF517E";
 createNode transform -s -n "persp";
 	rename -uid "A95A9948-4AB8-2FCF-5B86-98A11FC01003";
 	setAttr ".v" no;
@@ -2479,20 +2479,20 @@ createNode mesh -n "pCubeShape36" -p "pCube36";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".dr" 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "51706B42-40F2-834D-B321-6B99E40AFE6E";
+	rename -uid "32C6127D-48E0-985A-C35B-F0A8281F2CB7";
 	setAttr -s 7 ".lnk";
 	setAttr -s 7 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "D0259DE1-468E-CC02-2DEE-C38BD68362DD";
+	rename -uid "A21BD392-425B-8406-D5A2-A984BB66A6AA";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "9D8A052E-43CB-79EC-B3BA-CCABDFAC1752";
+	rename -uid "C8E75BB3-4541-8177-D805-3694666A7024";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "58E9EE2D-4FBD-8A4F-14A3-56BB99B68A56";
+	rename -uid "99C5764C-4346-1A1F-579E-D0BFB57C8AAC";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "85452E97-4F3E-D553-1EA1-6CB58BA6F2AF";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A584BE44-494A-94AC-3918-158EB2FFECD0";
+	rename -uid "81710D68-4A93-5313-FEEC-A2AD256D03D0";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "35BD8399-4415-5DCB-ECD5-CFBA0B86C87C";
 	setAttr ".g" yes;
@@ -2618,7 +2618,7 @@ createNode polyBevel3 -n "polyBevel1";
 	setAttr ".mvt" 0.0001;
 	setAttr ".sa" 30;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "C42C7F5A-413C-A143-2B60-2EAFF7D7BE86";
+	rename -uid "07137A5B-421F-F65E-8814-03B7F87B944E";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
