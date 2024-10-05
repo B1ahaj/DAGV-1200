@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: OutsideArea01.ma
-//Last modified: Fri, Oct 04, 2024 11:09:31 PM
+//Last modified: Fri, Oct 04, 2024 11:15:10 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 22631)";
-fileInfo "UUID" "B3AE9630-4BE0-2D47-D5A0-FC8F74A4C24D";
+fileInfo "UUID" "3D44B5DE-444F-282D-7CA5-C3B59690832E";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "BABBEB89-4946-83BE-36FC-928ABD0C46AE";
@@ -1957,7 +1957,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "70B89249-4248-4CB5-3A96-0ABFFC636709";
+	rename -uid "B6B90FA8-4E97-CCA4-5FBF-61AC12BDD555";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
